@@ -1,5 +1,5 @@
 let mongoose=require("mongoose");
-mongoose.connect("mongodb://localhost:27017/musicapp")
+mongoose.connect("mongodb+srv://pratikchindhe44:pratik123@cluster0.z8syx.mongodb.net/musicapp")
 let Schema=mongoose.Schema;
 let User_Schema=new Schema({
     "name":String,
