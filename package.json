@@ -1,0 +1,21 @@
+{
+  "name": "musicappvite",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/TxPrtaik/MusicApp#readme",
+  "bugs": {
+    "url": "https://github.com/TxPrtaik/MusicApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TxPrtaik/MusicApp.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
