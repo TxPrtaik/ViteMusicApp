@@ -7,7 +7,7 @@ let userRoute=require("./routes/User");
 let bodyparser=require("body-parser");
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(cors({
-    origin: "*",
+    origin: "https://melodystreampratik.netlify.app",
     credentials: true
 }));
 app.use(upload());
